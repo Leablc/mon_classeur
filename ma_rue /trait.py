@@ -30,4 +30,4 @@ if __name__ == '__main__':
 
     # Autres tests
     for x in range (int(rue.widht/2), rue.width + 1, 20) :
-        trait(x, 0, 3*rue.widht/2 - x, rue.height)
+        trait(x, 0, 3*rue.widht/2 - x, rue.height) 
