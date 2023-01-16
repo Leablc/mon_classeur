@@ -25,7 +25,7 @@ if __name__=='__main__':
     rue.fill_rect(0 ,0, rue.width, rue.height)
     rue.font = '48px Lucida Console'
     rue.text_align = 'center'
-    rue.stroke.text(couleur, rue.width/2, rue.height/2)
+    rue.stroke_text(couleur, rue.width/2, rue.height/2)
 
     # Autre tests
     from time import sleep
@@ -34,4 +34,8 @@ if __name__=='__main__':
         couleur = couleur_aleatoire()
         rue.fill_style = couleur
         rue.fill_rect(0, 0, rue.width, rue.height)
-        rue.font =
+        rue.font ='48px Lucida Console'
+        rue.text_align = 'center'
+        rue.stroke_text(couleur, rue.width/2, rue.heigh/2)
+        sleep(1)
+        
